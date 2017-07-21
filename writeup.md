@@ -18,7 +18,7 @@ The goals / steps of this project are the following:
 [image3]: /test_images_output/canny/Canny-solidWhiteCurve.jpg "Canny"
 [image4]: /test_images_output/masked/Masked-solidWhiteCurve.jpg "Masked"
 [image5]: /test_images_output/hough/Hough-solidWhiteCurve.jpg "Hough"
-[image6]: /test_images_output/Lane-solidWhiteCurve.jpg "Final"
+[image6]: /test_images_output/Lanes-solidWhiteCurve.jpg "Final"
 
 ---
 
