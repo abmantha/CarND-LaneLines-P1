@@ -10,6 +10,7 @@ The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
 * Reflect on my work in this write up. 
 
+My code can be found [here](https://github.com/abmantha/CarND-LaneLines-P1/blob/master/P1.ipynb)
 
 [//]: # (Image References)
 
@@ -47,13 +48,14 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 ### 2. Identify potential shortcomings with your current pipeline
 
-One potential shortcoming would be what would happen when ... 
+One potential shortcoming of my current pipeline is that it has difficulty resolving curved lanes of extreme angles. For example, in the Challenge video, my pipeline has difficulty resolving line segments where the curve bends a steeper degree than a typical straight line segment. As a result, my pipeline fails to accurately and consistently draw lanes.
 
-Another shortcoming could be ...
-
+Another shortcoming is that I do not apply any further advanced color masking or segmentation. I attempted to apply some additional selection for yellow (primarily to select yellow lane colors). However, based on the assumption that the camera's position is fixed, I utilized the fact that the lanes appear and are within a (generally speaking) fixed region of interest. This makes for a relatively easy area of detection. However, it will certainly fail to a more generalized case where lanes must be detected outside of that area of interest.
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
+A possible improvement would be to implement a better strategy to select and calculate slope values in the trapezoidal region of interest corresponding to lanes. I implemented the technique for averaging and extrapolation suggested in this video [Udacity Help](https://www.youtube.com/watch?v=hnXkCiM2RSg&list=PLAwxTw4SYaPkz3HerxrHlu1Seq8ZA7-5P&index=1&t=4s). However, I think I would have more success if I used some sort of second/third-order regression model to easily fit a values to a closely matching lane line. 
 
-Another potential improvement could be to ...
+Another potential improvement could be to account for color variations in the road. For example, the Challenge video's change in road color, amongst other reasons, caused my pipeline to fail. This is certainly an opportunity for improvement. 
+
+Finally, I am incredibly grateful for this first project. Though there are many areas for improvement, I'm very excited for all that I will learn in the coming months. Thank you!
