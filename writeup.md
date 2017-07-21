@@ -13,12 +13,12 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: /test_output_images/gray/Gray-solidWhiteCurve.jpg "Grayscale"
-[image2]: /test_output_images/gaussian/Gaussian-solidWhiteCurve.jpg "Gaussian"
-[image3]: /test_output_images/canny/Canny-solidWhiteCurve.jpg "Canny"
-[image4]: /test_output_images/masked/Masked-solidWhiteCurve.jpg "Masked"
-[image5]: /test_output_images/hough/Hough-solidWhiteCurve.jpg "Hough"
-[image6]: /test_output_images/Lane-solidWhiteCurve.jpg "Final"
+[image1]: /test_images_output/gray/Gray-solidWhiteCurve.jpg "Grayscale"
+[image2]: /test_images_output/gaussian/Gaussian-solidWhiteCurve.jpg "Gaussian"
+[image3]: /test_images_output/canny/Canny-solidWhiteCurve.jpg "Canny"
+[image4]: /test_images_output/masked/Masked-solidWhiteCurve.jpg "Masked"
+[image5]: /test_images_output/hough/Hough-solidWhiteCurve.jpg "Hough"
+[image6]: /test_images_output/Lane-solidWhiteCurve.jpg "Final"
 
 ---
 
